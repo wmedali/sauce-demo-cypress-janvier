@@ -3,7 +3,10 @@ describe("Sauce Demo Authentication tests", function () {
     cy.visit("https://www.saucedemo.com/");
   });
   it("SC-1 : Authentication with valid username/password", function () {
-    cy.get("[data-test='username']").type("standard_user");
+    cy.get("[data-test='username']")
+      .type("standard_user")
+      .should("have.value", "standard_user");
+
     cy.get("[data-test='password']").type("secret_sauce");
     cy.get("[data-test='login-button']").click();
 
@@ -15,7 +18,7 @@ describe("Sauce Demo Authentication tests", function () {
   });
 
   it("SC-2 : Valid username and invalid password", function () {
-    cy.get("[data-test='username']").type("standard_user");
+    cy.get("[data-test='username']").type("1234");
     cy.get("[data-test='password']").type("AAAAA");
     cy.get("[data-test='login-button']").click();
 
@@ -24,6 +27,18 @@ describe("Sauce Demo Authentication tests", function () {
       "include.text",
       "Username and password do not match"
     );
+
+    cy.get("[data-test='username']")
+      .invoke("val")
+      .then((usernameVal) => {
+        cy.log(usernameVal);
+      });
+    cy.get('[data-test="error"]')
+      .invoke("text")
+      .then((errorText) => {
+        cy.log(errorText);
+        expect(errorText).to.include("Username and password do not match");
+      });
   });
 
   it("SC-3 : Invalid username and valid password", function () {

@@ -1,0 +1,235 @@
+{
+  "results": [
+    {
+      "hits": [
+        {
+          "nb_words": 1,
+          "popularity": 59,
+          "prod_products_fr": {
+            "exact_nb_hits": 35206,
+            "facets": { "exact_matches": {}, "analytics": {} }
+          },
+          "query": "serrure",
+          "objectID": "serrure",
+          "_highlightResult": {
+            "query": {
+              "value": "<em>serrure</em>",
+              "matchLevel": "full",
+              "fullyHighlighted": true,
+              "matchedWords": ["serrure"]
+            }
+          }
+        },
+        {
+          "nb_words": 3,
+          "popularity": 330,
+          "prod_products_fr": {
+            "exact_nb_hits": 2236,
+            "facets": { "exact_matches": {}, "analytics": {} }
+          },
+          "query": "serrure 3 points",
+          "objectID": "serrure 3 points",
+          "_highlightResult": {
+            "query": {
+              "value": "<em>serrure</em> 3 points",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["serrure"]
+            }
+          }
+        },
+        {
+          "nb_words": 4,
+          "popularity": 239,
+          "prod_products_fr": {
+            "exact_nb_hits": 692,
+            "facets": { "exact_matches": {}, "analytics": {} }
+          },
+          "query": "serrure porte de garage",
+          "objectID": "serrure porte de garage",
+          "_highlightResult": {
+            "query": {
+              "value": "<em>serrure</em> porte de garage",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["serrure"]
+            }
+          }
+        },
+        {
+          "nb_words": 3,
+          "popularity": 216,
+          "prod_products_fr": {
+            "exact_nb_hits": 770,
+            "facets": { "exact_matches": {}, "analytics": {} }
+          },
+          "query": "serrure portail exterieur",
+          "objectID": "serrure portail exterieur",
+          "_highlightResult": {
+            "query": {
+              "value": "<em>serrure</em> portail exterieur",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["serrure"]
+            }
+          }
+        },
+        {
+          "nb_words": 3,
+          "popularity": 185,
+          "prod_products_fr": {
+            "exact_nb_hits": 3993,
+            "facets": { "exact_matches": {}, "analytics": {} }
+          },
+          "query": "serrure porte interieur",
+          "objectID": "serrure porte interieur",
+          "_highlightResult": {
+            "query": {
+              "value": "<em>serrure</em> porte interieur",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["serrure"]
+            }
+          }
+        }
+      ],
+      "nbHits": 63,
+      "page": 0,
+      "nbPages": 13,
+      "hitsPerPage": 5,
+      "exhaustiveNbHits": true,
+      "exhaustiveTypo": true,
+      "query": "serrure",
+      "params": "hitsPerPage=5&restrictSearchableAttributes=%5B%22query%22%5D&attributesToRetrieve=%5B%22*%22%2C%22-_highlightResult%22%5D&query=serrure",
+      "index": "prod_query_suggestions_fr",
+      "renderingContent": {},
+      "processingTimeMS": 1
+    },
+    {
+      "hits": [
+        {
+          "popularity": 487,
+          "query": "Serrure",
+          "objectID": "605",
+          "_highlightResult": {
+            "query": {
+              "value": "<em>Serrure</em>",
+              "matchLevel": "full",
+              "fullyHighlighted": true,
+              "matchedWords": ["serrure"]
+            }
+          }
+        },
+        {
+          "popularity": 3884,
+          "query": "Serrure monopoint encastrée",
+          "objectID": "607",
+          "_highlightResult": {
+            "query": {
+              "value": "<em>Serrure</em> monopoint encastrée",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["serrure"]
+            }
+          }
+        },
+        {
+          "popularity": 3539,
+          "query": "Serrure monopoint en applique",
+          "objectID": "606",
+          "_highlightResult": {
+            "query": {
+              "value": "<em>Serrure</em> monopoint en applique",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["serrure"]
+            }
+          }
+        }
+      ],
+      "userData": [{ "slug": "serrure", "id": 605 }],
+      "nbHits": 24,
+      "page": 0,
+      "nbPages": 8,
+      "hitsPerPage": 3,
+      "exhaustiveNbHits": true,
+      "exhaustiveTypo": true,
+      "query": "serrure",
+      "params": "hitsPerPage=3&restrictSearchableAttributes=%5B%22query%22%5D&attributesToRetrieve=%5B%22*%22%2C%22-_highlightResult%22%5D&ruleContexts=%5B%22redirection%22%5D&query=serrure",
+      "index": "prod_category_suggestions_fr",
+      "renderingContent": {},
+      "processingTimeMS": 1
+    },
+    {
+      "hits": [],
+      "nbHits": 0,
+      "page": 0,
+      "nbPages": 0,
+      "hitsPerPage": 3,
+      "exhaustiveNbHits": true,
+      "exhaustiveTypo": true,
+      "query": "serrure",
+      "params": "hitsPerPage=3&restrictSearchableAttributes=%5B%22query%22%5D&attributesToRetrieve=%5B%22*%22%2C%22-_highlightResult%22%5D&ruleContexts=%5B%22redirection%22%5D&query=serrure",
+      "index": "prod_brand_suggestions_fr",
+      "renderingContent": {},
+      "processingTimeMS": 1
+    },
+    {
+      "hits": [
+        {
+          "popularity": 0,
+          "query": "Serrure de portail et garage : comment choisir",
+          "slug": "serrure-de-portail-et-garage-comment-choisir-4362",
+          "objectID": "4362",
+          "_highlightResult": {
+            "query": {
+              "value": "<em>Serrure</em> de portail et garage : comment choisir",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["serrure"]
+            }
+          }
+        },
+        {
+          "popularity": 0,
+          "query": "Carré pour serrure :  comment choisir ",
+          "slug": "carre-pour-serrure-comment-choisir-4759",
+          "objectID": "4759",
+          "_highlightResult": {
+            "query": {
+              "value": "Carré pour <em>serrure</em> :  comment choisir ",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["serrure"]
+            }
+          }
+        },
+        {
+          "popularity": 0,
+          "query": "Comment poser une serrure monopoint en applique",
+          "slug": "comment-poser-une-serrure-monopoint-en-applique-4931",
+          "objectID": "4931",
+          "_highlightResult": {
+            "query": {
+              "value": "Comment poser une <em>serrure</em> monopoint en applique",
+              "matchLevel": "full",
+              "fullyHighlighted": false,
+              "matchedWords": ["serrure"]
+            }
+          }
+        }
+      ],
+      "nbHits": 10,
+      "page": 0,
+      "nbPages": 4,
+      "hitsPerPage": 3,
+      "exhaustiveNbHits": true,
+      "exhaustiveTypo": true,
+      "query": "serrure",
+      "params": "hitsPerPage=3&restrictSearchableAttributes=%5B%22query%22%5D&attributesToRetrieve=%5B%22*%22%2C%22-_highlightResult%22%5D&query=serrure",
+      "index": "prod_tipsheet_suggestions_fr",
+      "renderingContent": {},
+      "processingTimeMS": 1
+    }
+  ]
+}
